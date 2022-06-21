@@ -1,3 +1,4 @@
+package Dio;
 public class teste2 {
     
     public static void main(String[] args) {
@@ -19,6 +20,8 @@ public class teste2 {
         byte y1 = 1;
         short h1 = 25; 
 
+
+        //Comparação com o inteiro
         System.out.println("il == i2" + " " + (i1 == i2)); //Vai retonar falso
         System.out.println("il != i2" + " " + (i1 != i2)); //Vai retonar verdadeiro 
         System.out.println("il > i2" + " " + (i1 > i2)); //Vai retonar falso

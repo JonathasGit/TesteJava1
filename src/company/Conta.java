@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 public class Conta {
     int numeroDaConta;
