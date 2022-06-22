@@ -13,7 +13,7 @@ public class EstruturaDeControle {
     }
 
     private static void ifFlecha() {
-        int mes = 3;
+        int mes = 6;
 
        
         if(mes == 1){
@@ -26,9 +26,28 @@ public class EstruturaDeControle {
             System.out.println("Abril");
         } else{ if(mes == 5){
             System.out.println("Maio");
-        }else{ if(mes == 6){
+        } else{ if(mes == 6){
             System.out.println("Junho");
+        } else{ if(mes == 7){
+            System.out.println("Julho");
+        } else{ if(mes == 8){
+            System.out.println("Agosto");
+        } else{ if(mes == 9){
+            System.out.println("Setembro");
+        } else{ if(mes == 10){
+            System.out.println("Outubro");
+        } else{ if(mes ==11){
+            System.out.println("Novembro");
+        } else{ if(mes==12){
+            System.out.println("Dezembro");
+
         }
+
+        }
+    }
+
+        } 
+    }
 
         }
 
@@ -39,6 +58,10 @@ public class EstruturaDeControle {
         }
 
         }
+
+        }
+
+        } 
         
     }
 
