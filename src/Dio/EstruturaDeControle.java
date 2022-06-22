@@ -85,6 +85,24 @@ public class EstruturaDeControle {
             System.out.println("Fevereiro");
         } else if (mes1 ==3){
             System.out.println("Março");
+        } else if (mes1 == 4){
+            System.out.println("Abril");
+        } else if(mes1 == 5){
+            System.out.println("Maio");
+        } else if(mes1==6){
+            System.out.println("Junho");
+        } else if(mes1==7){
+            System.out.println("Julho");
+        } else if(mes1==8){
+            System.out.println("Agosto");
+        } else if(mes1==9){
+            System.out.println("Setembro");
+        } else if(mes1==10){
+            System.out.println("Outubro");
+        } else if(mes1==11){
+            System.out.println("Novembro");
+        } else if(mes1==12){
+            System.out.println("Dezembro");
         }
 
     }
