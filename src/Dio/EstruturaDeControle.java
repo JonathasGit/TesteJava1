@@ -4,6 +4,12 @@ public class EstruturaDeControle {
     public static void main(String[] args) {
 
         ifFlecha();
+        ifSemFlecha();
+
+
+
+
+
         int idade = 19;
 
         if (idade > 18) {
@@ -12,6 +18,10 @@ public class EstruturaDeControle {
 
     }
 
+    
+
+
+    //If FLecha - Evitar, pois polui o código, esteticamente é ruim. 
     private static void ifFlecha() {
         int mes = 6;
 
@@ -64,5 +74,20 @@ public class EstruturaDeControle {
         } 
         
     }
+
+    //If sem flecha
+    private static void ifSemFlecha(){
+
+        int mes1 = 1;
+        if(mes1 ==1 ){
+            System.out.println("Janeiro");
+        } else if (mes1 ==2){
+            System.out.println("Fevereiro");
+        } else if (mes1 ==3){
+            System.out.println("Março");
+        }
+
+    }
+
 
 }
